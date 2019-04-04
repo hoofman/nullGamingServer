@@ -1,5 +1,6 @@
 'use strict';
 
+var config = require('./config');
 var express = require('express');
 var cors = require('cors');
 var app = express();
@@ -28,8 +29,8 @@ var betsSchema = {
 }
 
 // Listen on this port
-var PORT = 3000;
-var VERSION = 1;
+var PORT = config.PORT;
+var VERSION = config.VERSION;
 
 var error_code={"statusCode":404,"error":"Not Found"};
 
