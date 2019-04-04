@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Null Gaming Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "node index"
+  },
+  "author": "hoofman",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.5",
+    "express": "^4.14.0",
+    "express-jsonschema": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "2.3.3",
+    "supertest": "1.1.0",
+    "chai": "3.3.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoofman/nullGamingServer.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoofman/nullGamingServer/issues"
+  },
+  "homepage": "https://github.com/hoofman/nullGamingServer#readme"
+}

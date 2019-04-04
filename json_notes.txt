@@ -1,0 +1,11 @@
+json_notes.txt
+
+//bets post notes on json format
+
+//request_payload
+
+{"bet_id":3,"odds":{"numerator":3,"denominator":1},"stake":1000}
+
+// request response
+
+{"bet_id":3,"event":"Next World Cup","name":"Spain","odds":{"numerator":3,"denominator":1},"stake":1000,"transaction_id":3914}
